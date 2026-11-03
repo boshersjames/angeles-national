@@ -87,7 +87,8 @@
     "photos_root": "course_photos",
     "progress": "progress",
     "flyovers": "~/Documents/AngelesNational/flyovers",
-    "backups": "~/Documents/AngelesNational/Backups"
+    "backups": "~/Documents/AngelesNational/Backups",
+    "photo_store": "r2://angeles-national"
   },
   "gps": {
     "magnetic_declination_deg": 12.0,
