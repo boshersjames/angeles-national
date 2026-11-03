@@ -1,0 +1,19 @@
+name,type,x,z,y,rot_y,width_m,depth_m,height_m,colour,note
+TeeRock_01,tee_rock,547.32,987.16,23.42,250,1.2,0.6,1.0,#D9D2C3,hole 1 par 4: black 402 blue 381 white 368 red 273
+TeeRock_02,tee_rock,934.07,1118.22,29.16,268,1.2,0.6,1.0,#D9D2C3,hole 2 par 5: black 585 blue 562 white 542 red 493
+TeeRock_03,tee_rock,1621.37,1065.35,39.03,88,1.2,0.6,1.0,#D9D2C3,hole 3 par 3: black 212 blue 177 white 156 red 62
+TeeRock_04,tee_rock,1389.15,1048.81,35.88,94,1.2,0.6,1.0,#D9D2C3,hole 4 par 4: black 427 blue 396 white 382 red 338
+TeeRock_05,tee_rock,940.14,1015.83,27.65,270,1.2,0.6,1.0,#D9D2C3,hole 5 par 4: black 422 blue 378 white 359 red 261
+TeeRock_06,tee_rock,1423.01,972.41,35.13,81,1.2,0.6,1.0,#D9D2C3,hole 6 par 4: black 459 blue 416 white 364 red 306
+TeeRock_07,tee_rock,955.00,917.81,28.99,117,1.2,0.6,1.0,#D9D2C3,hole 7 par 3: black 176 blue 164 white 149 red 81
+TeeRock_08,tee_rock,719.89,967.24,25.64,293,1.2,0.6,1.0,#D9D2C3,hole 8 par 5: black 530 blue 494 white 469 red 390
+TeeRock_09,tee_rock,1046.59,716.65,30.01,117,1.2,0.6,1.0,#D9D2C3,hole 9 par 4: black 486 blue 446 white 417 red 328
+TeeRock_10,tee_rock,571.21,1027.27,23.65,245,1.2,0.6,1.0,#D9D2C3,hole 10 par 4: black 459 blue 429 white 390 red 299
+TeeRock_11,tee_rock,822.89,1220.90,28.23,243,1.2,0.6,1.0,#D9D2C3,hole 11 par 4: black 310 blue 293 white 271 red 202
+TeeRock_12,tee_rock,1102.24,1286.40,31.93,52,1.2,0.6,1.0,#D9D2C3,hole 12 par 3: black 130 blue 120 white 109 red 100
+TeeRock_13,tee_rock,1079.07,1223.23,32.10,275,1.2,0.6,1.0,#D9D2C3,hole 13 par 5: black 494 blue 474 white 448 red 399
+TeeRock_14,tee_rock,1624.00,1096.83,40.07,156,1.2,0.6,1.0,#D9D2C3,hole 14 par 3: black 218 blue 199 white 151 red 106
+TeeRock_15,tee_rock,1564.07,1306.88,40.64,90,1.2,0.6,1.0,#D9D2C3,hole 15 par 4: black 472 blue 418 white 394 red 322
+TeeRock_16,tee_rock,1121.41,1432.18,33.47,61,1.2,0.6,1.0,#D9D2C3,hole 16 par 5: black 537 blue 507 white 493 red 425
+TeeRock_17,tee_rock,741.02,1307.54,26.02,80,1.2,0.6,1.0,#D9D2C3,hole 17 par 4: black 406 blue 366 white 344 red 248
+TeeRock_18,tee_rock,284.73,1333.73,16.79,314,1.2,0.6,1.0,#D9D2C3,hole 18 par 4: black 416 blue 377 white 363 red 266

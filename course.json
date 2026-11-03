@@ -1,0 +1,114 @@
+{
+  "name": "angeles_national",
+  "center_lat": 34.26810945,
+  "center_lon": -118.3291071,
+  "size": 2000,
+  "epsg": 6340,
+  "arcgis_wkid": 26911,
+  "utm_zone": 11,
+  "sw_e": 376642.75,
+  "sw_n": 3791683.25,
+  "y_offset": 345.0,
+  "lidar_survey": "CA_LosAngeles_1_B23",
+  "terrain_height": 187.0,
+  "club": "Angeles National Golf Club",
+  "gkd": {
+    "Location": "Sunland (Los Angeles), California, USA",
+    "CityTown": "Sunland",
+    "StateCountyProvince": "California",
+    "Country": "USA",
+    "Designer": "jboshers",
+    "altitudeV2": 360.0,
+    "altitude": 0.0,
+    "unitOfMeasure": 2,
+    "WindDirectionDefault": 225.0,
+    "WindStrengthDefault": 2,
+    "KeywordsString": "Desert",
+    "CourseInfo": "Angeles National Golf Club opened in 2004 and is the only Los Angeles County course from Nicklaus Design, the partnership of Jack Nicklaus and his family. It sits in the Big Tujunga Wash at the base of the Angeles National Forest, with mountain views, native vegetation and large boulders. The par 72 stretches to 7,141 yards, with 54 bunkers and water in play.",
+    "KeywordDesert": true,
+    "KeywordParkland": false,
+    "KeywordMountain": false,
+    "DefaultStimp": 2,
+    "MaxStimp": 5,
+    "GreenFirmnessDefault": 0,
+    "FairwayFirmnessDefault": 0
+  },
+  "water_colour": {
+    "deep": "#26487D",
+    "shallow": "#406785",
+    "note": "from BoJa's photos of the 18th lake; the NAIP photo shows the lakes near-black teal (44,68,63), so don't tint water from the satellite"
+  },
+  "display_name": "Angeles National Golf Club",
+  "location": "Sunland, Los Angeles, California, USA",
+  "designer_field": "jboshers",
+  "frame": {
+    "square_m": 2000,
+    "heightmap_px": 2049,
+    "crs": "EPSG:6340",
+    "sw_corner": [
+      376642.75,
+      3791683.25
+    ],
+    "centre_latlon": [
+      34.26810945,
+      -118.3291071
+    ],
+    "base_elevation_m": 345.0,
+    "relief_m": 187.0,
+    "axes": "x = m east of SW corner, z = m north, y = elevation - 345"
+  },
+  "lidar": {
+    "survey": "CA_LosAngeles_1_B23",
+    "quality_level": 1,
+    "pts_per_m2": 40
+  },
+  "satellite": {
+    "source": "NAIP",
+    "px": 8192,
+    "m_per_px": 0.24
+  },
+  "holes": 18,
+  "visit": "none",
+  "control_hole": null,
+  "paths": {
+    "toolkit": "../course-build",
+    "unity_project": "C:/GSP/AngelesNational_Project",
+    "unity_scene": "AngelesNational.unity",
+    "unity_editor_dir": "C:/GSP/AngelesNational_Project/Assets/Editor",
+    "automation_output": "C:/GSP/AngelesNational_Project/AutomationOutput",
+    "gspro_courses": "C:/GSProV1/Core/GSP/Courses",
+    "course_repo": ".",
+    "heightmap": "heightmap_2049.raw",
+    "gkd": "AngelesNational.GKD",
+    "course_svg": "course.svg",
+    "satellite": "satellite.jpg",
+    "trees_csv": "trees.csv",
+    "signs": "progress/hole_signs.json",
+    "photos_root": "course_photos",
+    "progress": "progress",
+    "flyovers": "~/Documents/AngelesNational/flyovers",
+    "backups": "~/Documents/AngelesNational/Backups"
+  },
+  "gps": {
+    "magnetic_declination_deg": 12.0,
+    "note": "EXIF compass is magnetic; +12 deg to true in Los Angeles County (2026)"
+  },
+  "tee_slot_map": {
+    "Black": "Black",
+    "Blue": "Blue",
+    "White": "White",
+    "Red": "Red"
+  },
+  "shared_tee_box_exceptions": [],
+  "rule_overrides": {},
+  "notes": [
+    "course.json carries both coursekit's keys (size, sw_e, sw_n, y_offset, epsg, terrain_height, lidar_survey, gkd) and the toolkit's (frame, paths, lidar, holes, gps); keep both in step.",
+    "Habitat (the wash and scrub inside the course) is a red penalty area, not interior OB (--habitat-penalty). Drop zones past the arroyos on 3, 6, 9, 18; check hole 6, its carry is short.",
+    "Wood-chip beds (free drop per the card) are not drawn yet: not in OSM. local_rules.md has the card's local rules.",
+    "Satellite is 8192 px (0.24 m/px); import at Max Size 8192 (4096 per the checklist), Terrain Size 2000. Water colour from BoJa's photos (course.json water_colour), never from the satellite.",
+    "checks/green_slopes.csv: holes 1 (3.9%) and 3 (4.4%) over 3% plane tilt; p90 local slope is noise at 1 m sampling.",
+    "Tee rocks: props.csv (type tee_rock) with tee_rocks/TeeRock_NN.png decals per hole.",
+    "Hole 10 Black/Blue tees are not mapped in OSM (card 459/429; OSM back tee gives 425).",
+    "Script order after coursekit card: scripts/apply_checklist.py, fix_box_tees.py, svg + smooth_fairways + surrounds + teepads, svg_check, tee_levels (see README)."
+  ]
+}
